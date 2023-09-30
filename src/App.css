@@ -1,0 +1,33 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+  font-size: x-large;
+}
+
+.amount-input,
+.currency-select {
+  padding-bottom: 20px;
+}
+
+.submit-btn {
+  width: 100px;
+  height: 50px;
+  border: 3px solid #000000;
+  background-color: rgb(168, 180, 168);
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  transition: 1s ease;
+}
+.submit-btn:hover {
+  background-color: #656861;
+  color: rgb(255, 255, 255);
+}
