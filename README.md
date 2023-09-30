@@ -6,9 +6,7 @@ The fifth final project for the Frontend Developer course.
 
 <!-- [The current look of the project at Netlify.](https://kat-skrzynecka-projekt-zaliczeniowy-4.netlify.app/) -->
 
-<!-- ![Main page screenshot 1](/assets/screenshot1.jpg)
-![Main page screenshot 2](/assets/screenshot2.jpg)
-![Main page screenshot 3](/assets/screenshot3.jpg) -->
+![Screenshot](/src/assets/screenshot.jpg)
 
 ## Description
 
