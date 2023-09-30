@@ -1,4 +1,4 @@
-.header-container {
+.headerContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,6 +6,6 @@
   margin: 80px;
 }
 
-.title-app-container {
+.titleAppContainer {
   font-size: xx-large;
 }

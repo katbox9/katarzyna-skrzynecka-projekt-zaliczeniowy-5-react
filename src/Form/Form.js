@@ -1,4 +1,4 @@
-import "./Form.css";
+import styles from "./Form.module.css";
 import axios from "axios";
 import { useState } from "react";
 
@@ -23,7 +23,7 @@ function Form() {
   }
   return (
     <form id="currency-container" onSubmit={getExchangeRate}>
-      <div className="amount-input">
+      <div className="amountInput">
         <label htmlFor="amount-to-be-calculated">
           Podaj kwotę do przeliczeń:
         </label>
@@ -36,7 +36,7 @@ function Form() {
           id="amount-to-be-calculated"
         />
       </div>
-      <div className="currency-select">
+      <div className="currencySelect">
         <label htmlFor="currency">Wybierz walutę:</label>
         <select name="currency" id="currency">
           <option value="eur">EUR</option>
@@ -44,10 +44,10 @@ function Form() {
           <option value="chf">CHF</option>
         </select>
       </div>
-      <button className="submit-btn" type="submit" id="btn">
+      <button className="submitBtn" type="submit" id="btn">
         Przelicz
       </button>
-      <output className="result-output" id="result">
+      <output className="resultOutput" id="result">
         {output}
       </output>
     </form>

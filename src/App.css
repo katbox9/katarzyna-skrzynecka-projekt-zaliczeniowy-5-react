@@ -2,7 +2,7 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.main-container {
+.mainContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -11,12 +11,12 @@ html {
   font-size: x-large;
 }
 
-.amount-input,
-.currency-select {
+.amountInput,
+.currencySelect {
   padding-bottom: 20px;
 }
 
-.submit-btn {
+.submitBtn {
   width: 100px;
   height: 50px;
   border: 3px solid #000000;
@@ -27,7 +27,7 @@ html {
   color: black;
   transition: 1s ease;
 }
-.submit-btn:hover {
+.submitBtn:hover {
   background-color: #656861;
   color: rgb(255, 255, 255);
 }
