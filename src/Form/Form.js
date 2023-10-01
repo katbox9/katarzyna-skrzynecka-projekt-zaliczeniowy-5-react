@@ -23,7 +23,7 @@ function Form() {
   }
   return (
     <form id="currency-container" onSubmit={getExchangeRate}>
-      <div className="amountInput">
+      <div className={styles.amountInput}>
         <label htmlFor="amount-to-be-calculated">
           Podaj kwotę do przeliczeń:
         </label>
@@ -36,7 +36,7 @@ function Form() {
           id="amount-to-be-calculated"
         />
       </div>
-      <div className="currencySelect">
+      <div className={styles.currencySelect}>
         <label htmlFor="currency">Wybierz walutę:</label>
         <select name="currency" id="currency">
           <option value="eur">EUR</option>
@@ -44,10 +44,10 @@ function Form() {
           <option value="chf">CHF</option>
         </select>
       </div>
-      <button className="submitBtn" type="submit" id="btn">
+      <button className={styles.submitBtn} type="submit" id="btn">
         Przelicz
       </button>
-      <output className="resultOutput" id="result">
+      <output className={styles.resultOutput} id="result">
         {output}
       </output>
     </form>
