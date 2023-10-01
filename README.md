@@ -4,7 +4,7 @@ The fifth final project for the Frontend Developer course.
 
 ## How it looks
 
-<!-- [The current look of the project at Netlify.](https://kat-skrzynecka-projekt-zaliczeniowy-4.netlify.app/) -->
+[The current look of the project at Netlify.](https://kat-skrzynecka-projekt-zaliczeniowy-5.netlify.app/)
 
 ![Screenshot](/src/assets/screenshot.jpg)
 
