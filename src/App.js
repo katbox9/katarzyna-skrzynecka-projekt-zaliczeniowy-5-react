@@ -1,4 +1,4 @@
-import "./App.css";
+import styles from "./App.module.css";
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 import Form from "./Form/Form";
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="mainContainer">
+      <main className={styles.mainContainer}>
         <Form />
       </main>
 

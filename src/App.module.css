@@ -1,0 +1,12 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+  font-size: x-large;
+}

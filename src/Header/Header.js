@@ -8,7 +8,7 @@ function Header() {
         <img src={Coins} alt="coins-logo" width="100" height="100" />
       </div>
 
-      <div className="titleApp-Container">
+      <div className={styles.titleAppContainer}>
         <h1>Przelicznik walut</h1>
       </div>
     </header>
